@@ -155,9 +155,6 @@ nav a {
   text-decoration: none;
   color: #adadad;
   font-size: 0.9em;
-  /* vertical-align: middle;
-  display: inline-flex;
-  flex-wrap: nowrap;*/
   justify-content: space-between;
 }
 
@@ -225,13 +222,13 @@ hr {
 }
 
 #right-header {
-  width: 50%;
+  width: 45%;
   text-align: center;
   margin: 150px 0 40px 0;
 }
 
 #left-header {
-  width: 50%;
+  width: 45%;
   text-align: center;
   margin-top: 150px;
 }
@@ -397,14 +394,11 @@ footer {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin: 20px; */
   }
 
   .cards {
     width: 100%;
     background-color: #efefef;
-    /* padding: 20px; */
-    /* margin: 20px; */
     border: 1px solid grey;
     display: flex;
     flex-flow: column wrap;
